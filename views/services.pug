@@ -1,0 +1,38 @@
+extends base.pug
+
+block scripts
+
+block style 
+    style 
+        include ../static/style.css 
+        include ../static/styleAbout.css
+        include ../static/styleServices.css
+
+block content
+    section#S1
+        divSimg 
+            img(src="/static/safety.jfif", id="safety")
+        div#sinfo 
+            p Fully equiped with fire extinguishers to ensure complete safety.
+    section#S1
+        div#Simg 
+            img(src="/static/water.jpg", id="safety")
+        div#sinfo 
+            p Pure drinking water.Both cold and hot water available.
+    section#S1
+        div#Simg 
+            img(src="/static/air.jpg", id="safety")
+        div#sinfo 
+            p Free air for vehicles with digital metre.
+    section#S1
+        div#Simg 
+            img(src="/static/garden.jpg", id="safety")
+        div#sinfo 
+            p Well maintained garden and sitting area.
+    section#S1
+        div#Simg 
+            img(src="/static/toilet.jfif", id="safety")
+        div#sinfo 
+            p Neat and clean restrooms .
+
+    

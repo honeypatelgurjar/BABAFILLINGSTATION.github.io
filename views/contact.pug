@@ -1,0 +1,46 @@
+extends base.pug
+
+block scripts
+    script(src='/home.js')
+block style 
+    style 
+        include ../static/style.css 
+        include ../static/styleAbout.css
+        include ../static/styleServices.css
+        include ../static/styleContact.css
+
+block content
+        <div class="container">
+            <h1>Contact Us here for job recruitement!!</h1>
+            <form action="/" method="post" id="contact">
+                <input type="text" name="name" id="name" placeholder="Enter your Name">
+                <input type="text" name="age" id="age" placeholder="Enter your age">
+                <input type="text" name="gender" id="gender" placeholder="Enter your gender">
+                <textarea name="address" id="address" cols="30" rows="10"  placeholder="Enter Your address"></textarea>
+                <textarea name="more" id="more" cols="30" rows="10" placeholder="More about you"></textarea>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+
+        <div class="mapouter">
+            <div class="gmap_canvas">
+                <iframe width="40%" height="30%" id="gmap_canvas" src="https://maps.google.com/maps?q=gurjar baba filling station bayana&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+        </div>
+
+        div#Numbers 
+            h2 Call us at :
+            div#manger 
+            h3 Manager 
+            p Roopendra Singh 
+            p +9194******17
+
+            div#manger 
+            h3 Accountant 
+            p Yogendra Singh 
+            p +9196******64
+
+            div#manager 
+            h3 Address 
+            p Rudawal Road SH-45 near Singhankheda Bayana ,BHaratpur Rajasthan 321401
+

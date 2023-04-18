@@ -1,0 +1,72 @@
+.container{
+   padding-bottom: 10px;
+    background: center / cover url("/static/dark.jpg");
+    opacity: .8;
+}
+
+.container h1{
+    color: rgb(255, 251, 251);
+    font-size: 30px;
+    text-align: center;
+    padding-right: 150px;
+}
+
+input , textarea{
+    display: block;
+    margin: 12px auto;
+    padding: 3px;
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgba(83, 44, 44, 0.96);
+    color: rgb(255, 242, 242);
+    
+}
+
+.btn{
+    display: block;
+    justify-content: center;
+    margin-left: 700px;
+    padding: 2px;
+    background-color: green;
+    
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.mapouter{
+    width: 148%;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    padding: 50px;
+    padding-left: 300px;
+    background-color: rgb(49, 43, 43);
+}
+
+#Numbers{
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    justify-content: space-around;
+    padding: 20px;
+    height: 80px;
+}
+#manager{
+    display: inline-block;
+    vertical-align: top;
+    padding: 50px;
+
+}
+ h3{
+    color: rgb(255, 249, 249);
+    font-size: 25px;
+    text-align: center;
+    padding: 25px;
+}
+p{
+    padding-top: 20px;
+    font-size: 18px;
+}
